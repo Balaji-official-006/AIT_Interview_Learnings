@@ -1,0 +1,13 @@
+{
+  "serviceName": "nginx-service",
+  "taskDefinition": "nginx-task",
+  "desiredCount": 1,
+  "launchType": "FARGATE",
+  "networkConfiguration": {
+    "awsvpcConfiguration": {
+      "subnets": ["subnet-xxxxxxxx"],
+      "securityGroups": ["sg-xxxxxxxx"],
+      "assignPublicIp": "ENABLED"
+    }
+  }
+}
