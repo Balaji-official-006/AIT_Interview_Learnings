@@ -49,3 +49,7 @@ kubectl get svc
 ## 7 Get public URL
 
 kubectl get svc nginx-service
+
+
+## Important to check the Load balancer's Security group -is my IP white listed or not
+
